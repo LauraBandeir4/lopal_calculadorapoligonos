@@ -2,6 +2,7 @@ package br.senai.sp.jandira.empresa_poligonos;
 
 import br.senai.sp.jandira.empresa_poligonos.model.Quadrado;
 import br.senai.sp.jandira.empresa_poligonos.model.Retangulo;
+import br.senai.sp.jandira.empresa_poligonos.model.Triangulo;
 
 public class CalculadoraPoligonos {
 
@@ -15,6 +16,12 @@ public class CalculadoraPoligonos {
 	retangulo1.setBase(3);
 	retangulo1.setAltura(4);
 	retangulo1.exibirDados();
+	
+	Triangulo triangulo1 =new Triangulo();
+	triangulo1.setBase(3);
+	triangulo1.setAltura(4);
+	triangulo1.exibirDados();
+	
 	}
 	
 }
