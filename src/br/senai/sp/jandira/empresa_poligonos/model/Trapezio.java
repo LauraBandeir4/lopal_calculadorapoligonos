@@ -5,10 +5,10 @@ public class Trapezio {
 	private double baseMaior;
     private double altura;
 
-    public void setBasemaior(double base) {
+    public void setBasemaior(double baseMenor) {
 	this.baseMenor = baseMenor;
     }
-    public void setBasemenor(double base) {
+    public void setBasemenor(double baseMaior) {
     	this.baseMaior = baseMaior;
         }
    
