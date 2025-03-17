@@ -23,8 +23,9 @@ public class Triangulo {
        System.out.println("----------------------------");
        System.out.println(" Dados do triângulo");
        System.out.println("tamanho da altura " + altura);
-       System.out.println("Área " + calcularArea());
-       System.out.println("tamanho do base " + base);
+       System.out.println("tamanho da base" + base);
+	   System.out.println("Área " + calcularArea());
+     
 	}
 			
 
