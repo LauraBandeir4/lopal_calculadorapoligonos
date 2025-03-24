@@ -22,6 +22,7 @@ public class Quadrado {
 	public void exibirDados() {
        System.out.println("----------------------------");
        System.out.println(" Dados do quadrado");
+       System.out.println("----------------------------");
        System.out.println("tamanho do lado " + lado);
        System.out.println("Área total " + calcularArea());
        System.out.println("tamanho do lado " + lado);

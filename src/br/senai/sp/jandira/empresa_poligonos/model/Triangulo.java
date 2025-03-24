@@ -13,7 +13,7 @@ public class Triangulo {
     }
 
 	public double calcularArea() {
-		double area = base * altura/2;
+		double area = (base * altura)/2;
 		return area;
 	}
 	
@@ -22,8 +22,9 @@ public class Triangulo {
 	public void exibirDados() {
        System.out.println("----------------------------");
        System.out.println(" Dados do triângulo");
-       System.out.println("tamanho da altura " + altura);
-       System.out.println("tamanho da base" + base);
+       System.out.println("----------------------------");
+       System.out.println("Altura " + altura);
+       System.out.println("Base" + base);
 	   System.out.println("Área " + calcularArea());
      
 	}

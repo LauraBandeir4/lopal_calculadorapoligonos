@@ -26,6 +26,7 @@ public class Retangulo {
 		public void exibirDados() {
 	       System.out.println("----------------------------");
 	       System.out.println(" Dados do retângulo");
+	       System.out.println("----------------------------");
 	       System.out.println("tamanho da altura " + altura);
 	       System.out.println("Área " + calcularArea());
 	       System.out.println("tamanho da base " + base);
